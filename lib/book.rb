@@ -1,5 +1,7 @@
 class Book
   
+  attr_writer :author
+  
   def initialize(title)
     @title = title
     
