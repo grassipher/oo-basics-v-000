@@ -5,7 +5,7 @@ class Book
   
   def initialize(title)
     @title = title
-    
+    @current_page = 0
   end
   
   
