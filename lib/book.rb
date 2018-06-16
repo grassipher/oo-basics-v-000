@@ -8,5 +8,8 @@ class Book
     @current_page = 0
   end
   
+  def turn_page
+    @current_page += 1
+  end
   
 end
